@@ -41,22 +41,22 @@ const Footer: React.FC = () => {
             <ul className="space-y-2">
               <li className="flex items-center">
                 <Mail className="h-4 w-4 mr-2 text-green-200" />
-                <a href="mailto:info@growsmart.org" className="text-green-200 hover:text-white">info@growsmart.org</a>
+                <a href="mailto:info@yezaafrica.org" className="text-green-200 hover:text-white">info@Yezaafrica.com</a>
               </li>
               <li className="flex items-center">
                 <Phone className="h-4 w-4 mr-2 text-green-200" />
-                <span className="text-green-200">+1 (555) 123-4567</span>
+                <span className="text-green-200">+250 788 490 856</span>
               </li>
               <li className="flex items-start">
                 <MapPin className="h-4 w-4 mr-2 mt-1 text-green-200" />
-                <span className="text-green-200">123 Farming Lane<br />Sustainable City, SC 12345</span>
+                <span className="text-green-200">Norssken House Kigali<br />Sustainable City, SC 12345</span>
               </li>
             </ul>
           </div>
         </div>
         
         <div className="border-t border-green-700 mt-8 pt-6 text-center text-green-300 text-sm">
-          <p>&copy; {new Date().getFullYear()} GrowSmart. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} YezAfrica. All rights reserved.</p>
         </div>
       </div>
     </footer>
